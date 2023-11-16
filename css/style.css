@@ -1,0 +1,397 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "Livvic", "Arrial", "Tahoma" sans-srif;
+}
+
+.contaner {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+
+.header {
+  width: 1440px;
+  height: 700px;
+  flex-shrink: 0;
+  background: #014e56;
+}
+
+.header__main {
+  display: flex;
+}
+
+.header__logo {
+  margin-top: 77px;
+  margin-left: 165px;
+}
+
+.header__list {
+  display: flex;
+  margin-left: 80px;
+  list-style: none;
+}
+
+.header__item {
+  margin-left: 40px;
+  margin-top: 80px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #fff;
+  font-family: Livvic;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.header__link:hover {
+  border-bottom: 3px solid red;
+}
+
+.button {
+  width: 153px;
+  height: 48px;
+  flex-shrink: 0;
+  margin-top: 77px;
+  border-radius: 24px;
+  border: 2px solid #fff;
+  background: #014e56;
+  margin-left: 609px;
+}
+
+.button__link {
+  text-decoration: none;
+  color: #fff;
+  font-family: Livvic;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+/* headerni bir qismi tugadi */
+
+.header__photo {
+  margin-top: 130px;
+}
+
+.header__hero {
+  display: flex;
+}
+
+.header__hero--right {
+  margin-top: -270px;
+  margin-left: 165px;
+}
+
+.header__hero--head {
+  color: #fff;
+  font-family: Livvic;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px;
+}
+
+.header__hero--left {
+  margin-top: -200px;
+  margin-left: 250px;
+}
+
+.header__hero--box {
+  width: 50px;
+  height: 4px;
+  flex-shrink: 0;
+  background: #79c8c7;
+  margin-top: -20px;
+}
+
+.header__hero--text {
+  color: #fff;
+  font-family: Livvic;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+.header__hero--img {
+  margin-top: 63px;
+  margin-left: 910px;
+}
+
+/* main qism boshlandi */
+
+.main {
+  width: 1440px;
+  height: 684px;
+  flex-shrink: 0;
+  background: #012f34;
+}
+
+.main__hero {
+  display: flex;
+}
+
+.main__hero--right {
+  margin-left: 165px;
+  margin-top: 140px;
+}
+
+.main__hero--box {
+  width: 50px;
+  height: 4px;
+  flex-shrink: 0;
+  background: #f67e7e;
+}
+
+.main__hero--right--text {
+  color: #fff;
+  font-family: Livvic;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.main__hero--left {
+  margin-left: 165px;
+  margin-top: 150px;
+}
+
+.main__herro--list {
+  list-style: none;
+}
+
+.main__hero--item {
+  display: flex;
+  margin-top: 20px;
+}
+
+.main__hero--img {
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+}
+
+.main__hero--head {
+  color: #f67e7e;
+  font-family: Livvic;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.main__hero--text {
+  color: #fff;
+  font-family: Livvic;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.main__hero--item2 {
+  margin-left: 50px;
+  margin-top: -10px;
+}
+
+.main__hero--img1 {
+  margin-left: 650px;
+  margin-top: -150px;
+}
+
+.wrapper {
+  width: 1440px;
+  height: 745px;
+  flex-shrink: 0;
+  background: #004047;
+}
+
+.wrapper__head {
+  color: #fff;
+  text-align: center;
+  font-family: Livvic;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.wrapper__box {
+  flex-shrink: 0;
+  margin-top: 65px;
+  margin-left: 100px;
+}
+
+.wrapper__list {
+  display: flex;
+  margin-left: 180px;
+}
+
+.wrapper__item {
+  list-style: none;
+}
+
+.wrapper__item--text {
+  width: 350px;
+  color: #fff;
+  text-align: center;
+  font-family: Livvic;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.wrapper__item--head {
+  color: #79c8c7;
+  text-align: center;
+  font-family: Livvic;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  margin-right: 25px;
+}
+
+.wrapper__item--head--text {
+  margin-top: -20px;
+  color: #fff;
+  text-align: center;
+  font-family: Livvic;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 18px;
+  margin-left: -20px;
+}
+
+.wrapper__item--img {
+  margin-left: 110px;
+}
+
+.wrapper__img {
+  margin-left: 1240px;
+  margin-top: -10px;
+}
+
+.sidibar {
+  width: 1440px;
+  height: 200px;
+  flex-shrink: 0;
+  background: #f67e7e;
+  margin-top: -49px;
+}
+
+.sidibar__head {
+  color: #012f34;
+  font-family: Livvic;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+  padding-top: 76px;
+  margin-left: 263px;
+}
+
+.sidibar__img {
+  margin-top: -105px;
+}
+
+.sidibar__button {
+  width: 153px;
+  height: 48px;
+  border-radius: 24px;
+  background: #f67e7e;
+  border: 2px solid #012f34;
+  margin-left: 1100px;
+  margin-top: 65px;
+}
+
+.sidibar__link {
+  text-decoration: none;
+  color: #012f34;
+  font-family: Livvic;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.footer {
+  width: 1440px;
+  height: 196px;
+  flex-shrink: 0;
+  background: #002529;
+  margin-top: 940px;
+}
+
+.footer__logo {
+  margin-top: 48px;
+  margin-left: 165px;
+}
+
+.footer__list {
+  display: flex;
+  margin-left: 83px;
+  list-style: none;
+}
+
+.footer__item {
+  margin-left: 40px;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #fff;
+  font-family: Livvic;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.footer__main {
+  margin-left: 400px;
+  margin-top: -120px;
+}
+
+.footer__text {
+  color: #fff;
+  font-family: Livvic;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.footer__footer {
+  margin-left: 1000px;
+  margin-top: -100px;
+  display: flex;
+}
+
+.footer__footer--img {
+  margin-left: 40px;
+}
+
+.footer__footer--text {
+  margin-left: 950px;
+  color: #fff;
+  font-family: Livvic;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+}
